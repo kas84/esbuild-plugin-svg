@@ -1,7 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import { optimize } from 'svgo';
-
+const fs = require('fs');
+const path = require('path');
+const optimize = require('svgo').optimize;
 const pluginSvg = (options = {}) => ({
 	name: 'svg',
 	setup(build) {
@@ -41,4 +40,4 @@ const pluginSvg = (options = {}) => ({
 	}
 });
 
-export default pluginSvg;
+module.exports = pluginSvg;

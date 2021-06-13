@@ -1,13 +1,12 @@
 {
 	"name": "esbuild-plugin-svg",
 	"version": "0.1.0",
-	"description": "Svg files import plugin for esbuild.",
+	"description": "Svg files import plugin for esbuild (commonjs).",
 	"repository": "nativew/esbuild-plugin-svg",
 	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
 	"license": "ISC",
 	"exports": "./src/index.js",
 	"main": "src/index.js",
-	"type": "module",
 	"scripts": {
 		"format": "prettier --write --ignore-unknown '**/*'"
 	},
